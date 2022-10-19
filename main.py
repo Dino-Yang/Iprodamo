@@ -173,10 +173,10 @@ def createBestelling(curs):
 
 
 try:
-    db = mysql.connector.connect(host='localhost',
-                                 database='Coolblue',
-                                 user='root',
-                                 password='root')
+    db = mysql.connector.connect(host='145.97.16.160',
+                                 database='s1136300',
+                                 user='sakila',
+                                 password='sakila')
     if db.is_connected():
         db_Info = db.get_server_info()
         print("Connected to MySQL Server version ", db_Info)
